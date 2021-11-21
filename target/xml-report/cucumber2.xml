@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.123">
+<testcase classname="Login feature" name="TC01_user logins with valid credentials" time="43.256">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on the fhctriplogin page......................................passed
+And user enters valid username "manager2"...................................passed
+And user enters  valid password "Man1ager2!"................................passed
+And user clicks login button................................................passed
+Then verify login is successfull............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull(FhcTripLoginStepDefinitions.java:39)
+	at ✽.verify login is successfull(file:///D:/java/selenium/selenium%20classlar/mycucumberframeworkTEKRAR/src/test/resources/features/parametre_fhclogin.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
